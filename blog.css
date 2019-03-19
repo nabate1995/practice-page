@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-image: linear-gradient(to right, white, black);
+    color: white;
+    padding: 5px;
+}
+#link{
+    display: inline-block;
+    padding: 5px;
+}
+
+#logout{
+    color: white;
+    text-decoration: none;
+}
+
+#link:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.links{
+    text-align: right;
+}
+.details{
+    background-image: linear-gradient(to right, black, red);
+    padding: 1px;
+}
+#img{
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px black;
+}
+.profile-pic{
+    display: inline-block;
+    padding: 20px;
+}
+.titles{
+    display: inline-block;
+    color: white;
+    padding: 1px;
+}
+.title-1 {
+    display: inline-block;
+}

@@ -1,0 +1,65 @@
+#body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    background-image: linear-gradient(to right,black, black);
+    color: white;
+    padding: 1px;
+}
+#navbar-title {
+    margin: 10px;
+}
+#link{
+    display: inline-block;
+    padding: 1px;
+}
+#link:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.links{
+    text-align: right;
+}
+.login-block{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.login-details{
+    background-color: #82c1df;
+    padding: 20px;
+    margin: 80px;
+}
+#username{
+    width: 50%;
+    margin: 20px;
+}
+#password{
+    width: 15%;
+    margin: 20px;
+}
+#login{
+    width: 20%;
+    margin: 20px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    border: none;
+    font-weight: 10px;
+}
+
+#login:hover{
+    background-color: white;
+    color: black;
+}
+
+#forgot-password,
+#create-account {
+    text-decoration: none;
+    font-size: 10px;
+}
